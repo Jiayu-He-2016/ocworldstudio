@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OCWorld Studio
 
-## Getting Started
+OCWorld Studio is a calm, creative website builder for original character creators. It helps users design story-based character pages using simple visual sections, customizable atmospheres, and live preview tools.
 
-First, run the development server:
+The project was designed for creators who want a more personal and flexible way to present their characters, worlds, timelines, notes, and visual inspiration without needing to code.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Many original character creators share their work across scattered platforms, notes, image folders, and social posts. OCWorld Studio explores how a lightweight web editor can support character storytelling through a more structured but still expressive interface.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Instead of focusing only on productivity, this project emphasizes mood, creativity, and personal expression. Users can build a character or story page using reusable sections, customize the visual atmosphere, and preview the page as they work.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Key Features
 
-## Learn More
+- Character and story page builder
+- Live preview while editing
+- Section-based layout system
+- Hero sections, notes, galleries, timelines, and story blocks
+- Customizable page atmosphere and visual style
+- Local project dashboard for saving multiple projects
+- Export-ready page structure
+- Beginner-friendly interface for non-technical users
+- Tutorial-style onboarding overlay to guide first-time users
 
-To learn more about Next.js, take a look at the following resources:
+## Design Goals
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The main design goal was to create a tool that feels calm, expressive, and approachable.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+I wanted the experience to feel less like a technical website builder and more like a creative studio where users can slowly shape a character world. The interface focuses on simple actions, soft visual hierarchy, and flexible storytelling blocks.
 
-## Deploy on Vercel
+## My Role
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I worked on the project concept, UX direction, interface structure, feature planning, frontend implementation, and deployment.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+My responsibilities included:
+
+- Defining the product idea and target users
+- Designing the page-building experience
+- Planning the section library and editing flow
+- Building the frontend interface
+- Creating onboarding guidance for new users
+- Testing layout behavior and interaction flow
+- Deploying the project with Vercel
+- Iterating based on usability and portfolio goals
+
+## UX Research / Product Thinking
+
+This project was motivated by a user need I observed in creative communities: many creators want to present their original characters in a more organized and aesthetic way, but existing tools can feel either too generic, too technical, or too social-media-driven.
+
+OCWorld Studio explores questions such as:
+
+- How can a website builder feel more emotionally expressive?
+- How can creators organize character information without feeling constrained?
+- How can a tool support both visual mood and structured storytelling?
+- How can onboarding reduce friction for users who are not familiar with web design tools?
+
+## Tech Stack
+
+- React / Next.js
+- JavaScript
+- CSS / Tailwind-style styling
+- Local storage for project saving
+- Vercel for deployment
+- GitHub for version control
+
+
+## Future Improvements
+
+Planned improvements include:
+
+- More flexible page navigation
+- More background and theme customization options
+- Improved gallery and image layout controls
+- More templates for different storytelling styles
+
+## Live Demo
+
+[ocworldstudio.vercel.app]
+
+## Repository
+
+This repository contains the source code for OCWorld Studio.
